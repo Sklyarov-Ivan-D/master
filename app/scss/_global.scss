@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-top {
+    background-color: #eef1f3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__bottom-title {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
